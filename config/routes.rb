@@ -13,5 +13,8 @@ Rails.application.routes.draw do
 
   get 'branding' => 'storefront#items_by_brand'
 
+  post 'order_complete' => 'cart#order_complete'
+
   resources :products
+
 end

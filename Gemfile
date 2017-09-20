@@ -14,7 +14,9 @@ gem 'carrierwave'
 gem 'cancancan'
 gem 'hirb'       # or 'pry-rails'; for rails c
 gem 'better_errors', group: :development
-
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+gem 'figaro'
+gem 'certified' #for the PC users
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'
